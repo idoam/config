@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/ido/Downloads/dev'
+let g:netrw_dirhist_0='/home/ido/.config/slimbookbattery'
+let g:netrw_dirhist_9='/home/ido/projects/tiger/tc/src/canon'
+let g:netrw_dirhist_8='/home/ido'
+let g:netrw_dirhist_7='/home/ido/assistant/acu-cli/.git/hooks'
+let g:netrw_dirhist_6='/home/ido/assistant/acu-cli/.git'
+let g:netrw_dirhist_5='/home/ido/assistant/acu-cli'
+let g:netrw_dirhist_4='/home/ido/assistant'
+let g:netrw_dirhist_3='/home/ido/Videos'
+let g:netrw_dirhist_2='/home/ido'
