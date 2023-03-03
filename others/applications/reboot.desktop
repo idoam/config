@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=reboot
+Type=Application
+Categories=Development
+Name=reboot
+Icon=~/.config/images/icons/reboot.png

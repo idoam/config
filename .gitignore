@@ -1,0 +1,20 @@
+nvim/
+flameshot/
+nix/
+dconf/
+gnome-initial-setup-done
+gnome-session/
+gpick/
+gtk*
+ibus/
+JetBrains/
+kazam/
+Keeper Password Manager
+mimeapps.list
+nautilus/
+pavucontrol.ini
+pulse/
+ranger/
+user-dirs.dirs
+user-dirs.locale
+wireshark/

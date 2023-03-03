@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec='/opt/shutdown'
+Type=Application
+Categories=Development
+Name=shutdown
+Icon=~/.config/images/icons/shutdown.png

@@ -1,0 +1,10 @@
+configuration {
+    display-drun: "";
+    drun-display-format: "{icon} {name}";
+    display-window: "";
+    modi: "window,run,drun,combi";
+    show-icons: true;
+    font: "Hack Nerd Font Mono 12";
+}
+
+@theme "~/.local/share/rofi/themes/windows11-list-light.rasi"

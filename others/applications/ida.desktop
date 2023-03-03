@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=/opt/idafree-8.1/ida64
+Type=Application
+Categories=Development
+Name=ida
+Icon=~/.config/images/icons/ida.png
