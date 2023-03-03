@@ -40,21 +40,17 @@ bindsym $mod+Return exec i3-sensible-terminal
 # kill focused window
 bindsym $mod+Shift+A kill
 
-
+# sound control
 bindsym $mod+F9 exec pactl set-sink-mute @DEFAULT_SINK@ toggle
 bindsym $mod+F10 exec pactl set-sink-volume @DEFAULT_SINK@ +5%
 bindsym $mod+F11 exec pactl set-sink-volume @DEFAULT_SINK@ -5%
+
+# flameshot (screenshots)
 bindsym $mod+F12 exec flameshot gui
 
-# start dmenu (a program launcher)
-# bindsym $mod+d exec --no-startup-id dmenu_run -nb '#082336' -nf '#FFF' -sb '#3b7a76'
+# start rofi (a program launcher)
 bindsym $mod+d exec --no-startup-id rofi -show drun
 bindsym $mod+w exec --no-startup-id rofi -show window
-# A more modern dmenu replacement is rofi:
-# bindcode $mod+40 exec "rofi -modi drun,run -show drun"
-# There also is i3-dmenu-desktop which only displays applications shipping a
-# .desktop file. It is a wrapper around dmenu, so you need that installed.
-# bindcode $mod+40 exec --no-startup-id i3-dmenu-desktop
 
 # alternatively, you can use the cursor keys:
 bindsym $mod+Left focus left
@@ -158,24 +154,18 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
+
 # colors
 
-# Dark theme
 # class                 border  backgr. text    indicator child_border
 client.focused          #4c7899 #285577 #ffffff #2e9ef4   #999999
 client.unfocused        #333333 #222222 #888888 #292d2e   #111111
-
-# White theme
-# class                 border  backgr. text    indicator child_border
-#client.focused          #F0F4FB #F0F4FB #F0F4FB #F0F4FB   #1D1D1D
-#client.unfocused        #F0F4FB #F0F4FB #F0F4FB #F0F4FB   #F0F4FB
 
 client.background       #FFFFFF
 
 bar {
     # position top
     status_command i3status
-
     colors {
                 background #19262A
                 statusline #1ABC9C
@@ -185,15 +175,4 @@ bar {
                 inactive_workspace #19262A  #19262A     #5D907F
 
         }
-
-    #colors {
-    #            background #F0F4FB
-    #            statusline #6E3E3C
-    #            separator #d1892a
-    #            # colorclass       <border> <background> <text>
-    #            focused_workspace  #1885FD  #1885FD     #FFFFFF
-    #            inactive_workspace #F0F4FB  #F0F4FB     #381F1F
-
-    #    }
-
     }
