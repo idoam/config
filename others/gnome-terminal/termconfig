@@ -1,0 +1,35 @@
+[/]
+default-show-menubar=false
+theme-variant='dark'
+
+[profiles:]
+default='b1dcc9dd-5262-4d8d-a863-c897e6d979b9'
+list=['b1dcc9dd-5262-4d8d-a863-c897e6d979b9']
+
+[profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
+audible-bell=false
+background-color='rgb(25,38,43)'
+background-transparency-percent=8
+bold-color='rgb(248,255,235)'
+bold-color-same-as-fg=false
+bold-is-bright=true
+cell-height-scale=1.1000000000000001
+cell-width-scale=1.0
+cursor-background-color='rgb(32,59,46)'
+cursor-blink-mode='off'
+cursor-colors-set=false
+cursor-foreground-color='rgb(250,255,244)'
+cursor-shape='ibeam'
+font='Hack Nerd Font Mono 14'
+foreground-color='rgb(239,236,241)'
+highlight-background-color='rgb(32,59,46)'
+highlight-colors-set=true
+highlight-foreground-color='rgb(248,255,235)'
+palette=['rgb(25,38,43)', 'rgb(192,28,40)', 'rgb(23,218,128)', 'rgb(192,141,2)', 'rgb(36,81,190)', 'rgb(163,71,186)', 'rgb(42,202,163)', 'rgb(208,207,204)', 'rgb(94,92,100)', 'rgb(246,97,81)', 'rgb(51,209,122)', 'rgb(255,187,6)', 'rgb(40,212,250)', 'rgb(192,97,203)', 'rgb(51,199,222)', 'rgb(255,255,255)']
+scrollbar-policy='never'
+text-blink-mode='always'
+use-system-font=false
+use-theme-colors=false
+use-theme-transparency=false
+use-transparent-background=true
+visible-name='dark theme'
