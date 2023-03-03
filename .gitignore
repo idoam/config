@@ -1,20 +1,22 @@
-nvim/
-flameshot/
-nix/
 dconf/
+flameshot/
 gnome-initial-setup-done
 gnome-session/
 gpick/
-gtk*
+gtk-3.0
+gtk-4.0
 ibus/
 JetBrains/
 kazam/
 Keeper Password Manager
 mimeapps.list
 nautilus/
+nix/
+nvim/
 pavucontrol.ini
 pulse/
 ranger/
+rofi/
 user-dirs.dirs
 user-dirs.locale
 wireshark/
